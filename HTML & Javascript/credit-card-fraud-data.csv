@@ -1,0 +1,1001 @@
+Number ID,Province/State,Fraud and Cybercrime Thematic Categories,Solicitation Method,Gender,Victim Age Range,Dollar Loss
+1,Saskatchewan,Merchandise,Other/unknown,Male,60-69,222.73
+2,British Columbia,Vendor Fraud,Text message,Male,10-19,300.0
+3,Yukon,Spear Phishing,Email,Male,70-79,1600.0
+4,Alberta,Extortion,Internet-social network,Male,40-49,24000.0
+5,Prince Edward Island,Merchandise,Internet,Male,30-39,11000.0
+6,British Columbia,Merchandise,Internet,Female,30-39,95.4
+7,Quebec,Merchandise,Internet,Male,20-29,97.34
+8,Ontario,Merchandise,Internet,Female,20-29,50.0
+9,Quebec,"Emergency (Jail, Accident, Hospital, Help)",Email,Male,50-59,700.0
+10,British Columbia,Job,Internet-social network,Female,20-29,24466.34
+11,Alberta,Merchandise,Internet,Female,20-29,50.0
+12,Ontario,Merchandise,Internet,Male,30-39,640.0
+13,British Columbia,Merchandise,Internet,Female,40-49,975.0
+14,Ontario,Service,Internet-social network,Female,20-29,1813.55
+15,Ontario,Merchandise,Internet-social network,Male,20-29,200.0
+16,Ontario,Merchandise,Internet,Female,20-29,110.56
+17,Ontario,Vendor Fraud,Internet,Male,20-29,3000.0
+18,Ontario,Merchandise,Internet,Male,20-29,10000.0
+19,Saskatchewan,Extortion,Internet-social network,Female,70-79,3000.0
+20,Nova Scotia,Bank Investigator,Direct call,Female,60-69,77500.0
+21,Quebec,Investments,Door to door/in person,Female,20-29,4081.2
+22,Quebec,"Emergency (Jail, Accident, Hospital, Help)",Email,Female,60-69,1500.0
+23,Ontario,Merchandise,Internet-social network,Female,50-59,164.76
+24,Quebec,Counterfeit Merchandise,Internet,Male,40-49,49.17
+25,Ontario,Romance,Internet-social network,Female,10-19,596.37
+26,Ontario,Service,Internet-social network,Female,50-59,461.47
+27,Saskatchewan,Service,Mail,Female,50-59,1223.67
+28,Ontario,Investments,Internet-social network,Female,30-39,397827.73
+29,Ontario,Bank Investigator,Direct call,Female,50-59,321400.0
+30,Ontario,Merchandise,Internet-social network,Female,40-49,150.0
+31,Ontario,Merchandise,Internet-social network,Female,60-69,42.35
+32,Ontario,Vendor Fraud,Internet,Male,20-29,850.0
+33,Quebec,Vendor Fraud,Email,Female,50-59,46.0
+34,Ontario,Merchandise,Internet-social network,Female,20-29,150.0
+35,Ontario,Investments,Internet,Male,70-79,250.0
+36,Ontario,Merchandise,Internet,Female,40-49,75.97
+37,Ontario,Merchandise,Internet-social network,Female,10-19,900.0
+38,Ontario,Investments,Internet-social network,Female,40-49,15354.26
+39,Quebec,Loan,Internet-social network,Male,50-59,2150.0
+40,Ontario,Romance,Internet-social network,Male,20-29,1400.0
+41,Ontario,"Emergency (Jail, Accident, Hospital, Help)",Direct call,Female,80-89,13000.0
+42,Quebec,Service,Internet,Male,40-49,384.0
+43,Quebec,Service,Direct call,Male,50-59,5800.0
+44,Quebec,Loan,Internet-social network,Female,50-59,41000.0
+45,Quebec,Unauthorized Charge,Other/unknown,Female,60-69,206.0
+46,Nova Scotia,Romance,Internet-social network,Male,20-29,8040.0
+47,Ontario,Vendor Fraud,Internet-social network,Male,10-19,625.0
+48,Ontario,Merchandise,Internet,Male,40-49,785.0
+49,British Columbia,Merchandise,Internet-social network,Male,20-29,350.0
+50,Nova Scotia,Counterfeit Merchandise,Internet,Female,50-59,170.94
+51,Ontario,Vendor Fraud,Internet,Male,20-29,2400.0
+52,Ontario,Merchandise,Internet-social network,Female,20-29,720.0
+53,Nova Scotia,Spear Phishing,Email,Male,70-79,800.0
+54,Ontario,"Emergency (Jail, Accident, Hospital, Help)",Internet-social network,Female,30-39,18889.0
+55,Quebec,Counterfeit Merchandise,Internet,Female,50-59,140.99
+56,Ontario,Investments,Other/unknown,Male,40-49,26600.0
+57,Wisconsin,Merchandise,Internet,Female,50-59,704.0
+58,Ontario,Merchandise,Internet,Male,20-29,760.0
+59,Quebec,"Emergency (Jail, Accident, Hospital, Help)",Email,Female,60-69,300.0
+60,Ontario,Extortion,Direct call,Female,10-19,12000.0
+61,Quebec,Investments,Internet,Male,50-59,165859.11
+62,Quebec,Merchandise,Email,Male,20-29,1700.0
+63,British Columbia,Extortion,Direct call,Male,40-49,200.0
+64,Ontario,Job,Email,Male,50-59,1000.0
+65,Ontario,Timeshare,Other/unknown,Male,80-89,74751.05
+66,Ontario,"Emergency (Jail, Accident, Hospital, Help)",Direct call,Male,70-79,7000.0
+67,Ontario,Investments,Internet,Male,50-59,172270.0
+68,Quebec,Counterfeit Merchandise,Internet,Male,60-69,78.24
+69,Ontario,Romance,Internet-social network,Female,50-59,6225.0
+70,Nova Scotia,GRANT,Internet-social network,Female,70-79,850.0
+71,Manitoba,Vendor Fraud,Internet-social network,Male,10-19,4550.0
+72,Ontario,Extortion,Direct call,Female,60-69,4740.0
+73,Manitoba,Extortion,Direct call,Female,70-79,8000.0
+74,Quebec,Romance,Internet-social network,Female,40-49,15000.0
+75,Ontario,Counterfeit Merchandise,Internet,Male,30-39,58.17
+76,Ontario,Unauthorized Charge,Other/unknown,Male,50-59,3500.0
+77,Quebec,Vendor Fraud,Internet-social network,Male,30-39,430.0
+78,Ontario,Romance,Internet-social network,Female,50-59,2550.0
+79,Manitoba,Vendor Fraud,Text message,Female,20-29,650.0
+80,Quebec,Timeshare,Direct call,Male,60-69,4949.56
+81,Newfoundland And Labrador,Romance,Internet-social network,Female,50-59,7279.0
+82,Quebec,Counterfeit Merchandise,Other/unknown,Male,40-49,112.85
+83,Ontario,Extortion,Direct call,Male,20-29,1950.0
+84,Ontario,Extortion,Direct call,Male,20-29,7094.0
+85,Quebec,Extortion,Direct call,Female,30-39,960.0
+86,Quebec,Counterfeit Merchandise,Internet,Female,60-69,27.45
+87,Ontario,Service,Door to door/in person,Female,20-29,9500.0
+88,British Columbia,Merchandise,Text message,Male,40-49,405.54
+89,Manitoba,Merchandise,Internet,Female,20-29,650.0
+90,Alberta,Romance,Internet,Female,30-39,1500.0
+91,Ontario,Romance,Internet-social network,Female,60-69,4262.5
+92,Ontario,Extortion,Direct call,Female,20-29,4800.0
+93,Quebec,Vendor Fraud,Text message,Female,20-29,750.0
+94,British Columbia,Job,Internet-social network,Female,20-29,700.0
+95,British Columbia,Vendor Fraud,Internet,Male,30-39,127.48
+96,Ontario,Romance,Internet-social network,Male,20-29,500.0
+97,Manitoba,Vendor Fraud,Internet,Male,30-39,599.0
+98,Alberta,Vendor Fraud,Internet,Male,30-39,480.0
+99,Nova Scotia,Vendor Fraud,Internet,Female,50-59,281.9
+100,British Columbia,Merchandise,Door to door/in person,Male,50-59,50.0
+101,Quebec,Merchandise,Email,Male,40-49,1500.0
+102,Manitoba,Job,Email,Female,50-59,23210.0
+103,Ontario,Prize,Direct call,Female,70-79,44200.0
+104,Quebec,Vendor Fraud,Internet-social network,Female,30-39,50.0
+105,Quebec,Merchandise,Internet-social network,Female,20-29,245.0
+106,Quebec,Merchandise,Other/unknown,Male,50-59,217.14
+107,Newfoundland And Labrador,Merchandise,Internet,Male,30-39,80.91
+108,Quebec,Loan,Internet-social network,Female,50-59,280.0
+109,Quebec,Merchandise,Internet,Female,40-49,2400.0
+110,Alberta,Service,Internet,Female,50-59,100.0
+111,Quebec,Bank Investigator,Direct call,Female,60-69,2500.0
+112,Quebec,Merchandise,Direct call,Female,50-59,100.0
+113,Ontario,Romance,Internet,Female,70-79,128.15
+114,Ontario,Merchandise,Internet,Male,30-39,417.1
+115,Quebec,Merchandise,Internet,Male,10-19,1539.41
+116,Ontario,Other,Other/unknown,Female,40-49,529.4
+117,Quebec,Merchandise,Internet,Male,10-19,1508.92
+118,Ontario,Vendor Fraud,Internet,Female,50-59,600.0
+119,Quebec,Romance,Direct call,Male,60-69,232.79
+120,Quebec,Merchandise,Internet,Male,20-29,1514.93
+121,Quebec,Merchandise,Internet,Female,20-29,1503.42
+122,Ontario,Romance,Internet-social network,Female,20-29,1460.38
+123,Quebec,Vendor Fraud,Internet-social network,Female,40-49,321.28
+124,Ontario,Merchandise,Other/unknown,Female,40-49,150.0
+125,Alberta,Merchandise,Internet,Male,40-49,1325.0
+126,Ontario,Merchandise,Internet,Male,10-19,112.15
+127,British Columbia,Merchandise,Text message,Male,20-29,500.0
+128,Quebec,Job,Internet-social network,Female,20-29,3000.0
+129,Ontario,Merchandise,Internet-social network,Female,20-29,950.0
+130,Ontario,Vendor Fraud,Internet-social network,Male,30-39,410.0
+131,British Columbia,Timeshare,Direct call,Female,60-69,4401.23
+132,North West Territories,Spear Phishing,Email,Male,40-49,800.0
+133,Ontario,Merchandise,Text message,Male,20-29,490.0
+134,Ontario,Investments,Internet,Female,30-39,5000.0
+135,Quebec,Extortion,Direct call,Female,30-39,9300.0
+136,Nova Scotia,Merchandise,Internet-social network,Male,30-39,500.0
+137,Ontario,Spear Phishing,Email,Female,20-29,2400.0
+138,British Columbia,Romance,Internet,Female,50-59,12400.0
+139,Ontario,Merchandise,Internet,Female,70-79,227.96
+140,Ontario,Merchandise,Internet,Female,50-59,79.18
+141,Ontario,Investments,Direct call,Female,70-79,10700.0
+142,Ontario,Vendor Fraud,Text message,Female,20-29,600.0
+143,Ontario,Vendor Fraud,Text message,Female,10-19,750.0
+144,Manitoba,Merchandise,Email,Female,40-49,1160.0
+145,Alberta,Vendor Fraud,Internet,Female,50-59,2000.0
+146,Ontario,Vendor Fraud,Internet,Female,20-29,1200.0
+147,Newfoundland And Labrador,Service,Internet,Female,60-69,3045.2
+148,Ontario,Service,Internet,Female,30-39,555.63
+149,Manitoba,Merchandise,Internet,Female,30-39,375.0
+150,British Columbia,Investments,Internet-social network,Male,20-29,31000.0
+151,Alberta,Vendor Fraud,Other/unknown,Female,20-29,500.0
+152,Ontario,Vendor Fraud,Internet,Male,20-29,400.0
+153,British Columbia,Romance,Internet-social network,Female,40-49,45316.51
+154,Ontario,Spear Phishing,Email,Male,50-59,13340.38
+155,Quebec,Investments,Internet,Male,60-69,6784.51
+156,Alberta,Investments,Direct call,Male,40-49,250000.0
+157,Quebec,Extortion,Direct call,Female,30-39,4300.0
+158,Ontario,Service,Internet,Female,30-39,1440.76
+159,Alberta,Vendor Fraud,Text message,Male,20-29,1701.33
+160,Quebec,Counterfeit Merchandise,Internet,Male,40-49,388.0
+161,Ontario,Merchandise,Email,Male,20-29,100.0
+162,British Columbia,Service,Direct call,Female,50-59,126.84
+163,Nova Scotia,Merchandise,Internet,Female,40-49,724.49
+164,Ontario,Job,Internet,Male,20-29,10.0
+165,New Brunswick,Merchandise,Direct call,Female,70-79,1600.0
+166,British Columbia,Merchandise,Internet-social network,Female,30-39,15.72
+167,Nova Scotia,Merchandise,Internet,Male,50-59,195.0
+168,Ontario,Vendor Fraud,Internet,Male,20-29,419.46
+169,Quebec,Bank Investigator,Direct call,Male,40-49,1000.0
+170,Ontario,Merchandise,Door to door/in person,Male,60-69,2829.0
+171,British Columbia,Investments,Direct call,Male,60-69,35000.0
+172,British Columbia,Merchandise,Email,Male,30-39,1800.0
+173,Ontario,Investments,Internet,Male,70-79,20100.0
+174,Saskatchewan,Merchandise,Internet-social network,Male,40-49,39.23
+175,Quebec,Investments,Internet-social network,Male,30-39,9000.0
+176,Alberta,Merchandise,Internet,Female,40-49,1559.34
+177,Ontario,Vendor Fraud,Text message,Male,30-39,120.0
+178,Quebec,"Emergency (Jail, Accident, Hospital, Help)",Email,Male,60-69,500.0
+179,British Columbia,Other,Other/unknown,Male,20-29,14.3
+180,Nova Scotia,Vendor Fraud,Internet,Female,40-49,800.0
+181,Ontario,Extortion,Direct call,Female,30-39,15000.0
+182,Ontario,Vendor Fraud,Internet,Male,30-39,2445.0
+183,Quebec,Merchandise,Internet-social network,Female,30-39,500.0
+184,Ontario,Vacation,Other/unknown,Female,50-59,22557.29
+185,Ontario,Job,Other/unknown,Female,50-59,4900.0
+186,Nova Scotia,Vendor Fraud,Internet,Male,10-19,200.0
+187,Saskatchewan,Prize,Direct call,Female,80-89,50.0
+188,Ontario,Bank Investigator,Direct call,Female,60-69,100.0
+189,Saskatchewan,Prize,Direct call,Male,90-99,500.0
+190,Ontario,Extortion,Direct call,Male,20-29,21760.0
+191,Ontario,Merchandise,Text message,Male,30-39,700.0
+192,British Columbia,Investments,Internet-social network,Female,30-39,30000.0
+193,Ontario,Foreign Money Offer,Other/unknown,Female,20-29,72937.5
+194,British Columbia,Investments,Other/unknown,Male,20-29,136743.57
+195,British Columbia,Recovery Pitch,Email,Male,80-89,69500.0
+196,Ontario,Vendor Fraud,Email,Male,60-69,220.0
+197,Ontario,Vendor Fraud,Internet,Male,10-19,160.0
+198,British Columbia,Service,Email,Female,80-89,5000.0
+199,British Columbia,Merchandise,Internet-social network,Male,60-69,2000.0
+200,Ontario,Bank Investigator,Direct call,Male,30-39,31500.0
+201,Nova Scotia,Investments,Other/unknown,Male,30-39,200.0
+202,Alberta,Merchandise,Text message,Male,10-19,75.0
+203,Ontario,Investments,Internet,Male,30-39,10000.0
+204,Quebec,Merchandise,Internet,Male,50-59,2900.0
+205,Newfoundland And Labrador,Merchandise,Internet,Male,30-39,200.0
+206,Ontario,Merchandise,Internet,Male,40-49,1450.0
+207,Ontario,Merchandise,Text message,Male,40-49,6250.0
+208,Ontario,Merchandise,Internet-social network,Male,70-79,44.7
+209,British Columbia,Extortion,Direct call,Male,30-39,20100.0
+210,Yukon,Romance,Internet-social network,Male,20-29,3000.0
+211,British Columbia,Bank Investigator,Direct call,Female,20-29,4420.0
+212,Ontario,Loan,Direct call,Female,40-49,8500.0
+213,Ontario,Merchandise,Text message,Female,30-39,100.0
+214,Quebec,Counterfeit Merchandise,Internet,Male,30-39,250.0
+215,Quebec,Counterfeit Merchandise,Internet-social network,Female,40-49,126.0
+216,Quebec,Investments,Internet-social network,Male,30-39,995.0
+217,Quebec,Counterfeit Merchandise,Internet,Female,40-49,80.0
+218,Nova Scotia,Spear Phishing,Email,Female,20-29,300.0
+219,Ontario,Prize,Direct call,Male,90-99,2500.0
+220,Quebec,Merchandise,Internet,Female,40-49,400.0
+221,Ontario,Vendor Fraud,Internet,Female,20-29,398.98
+222,Quebec,Merchandise,Internet,Male,30-39,15.0
+223,Ontario,Merchandise,Text message,Female,30-39,1200.0
+224,Ontario,Merchandise,Internet,Male,40-49,500.0
+225,Manitoba,Merchandise,Internet,Male,20-29,200.0
+226,Saskatchewan,Prize,Direct call,Female,80-89,650.0
+227,Ontario,Merchandise,Internet,Male,30-39,850.0
+228,Alberta,Merchandise,Internet,Male,40-49,141.83
+229,Ontario,Merchandise,Internet,Female,60-69,119.0
+230,British Columbia,Merchandise,Email,Female,30-39,100000.0
+231,Nova Scotia,Merchandise,Email,Female,50-59,75.0
+232,Ontario,"Emergency (Jail, Accident, Hospital, Help)",Door to door/in person,Male,40-49,1030.0
+233,Ontario,Romance,Internet-social network,Female,30-39,8688.13
+234,British Columbia,"Emergency (Jail, Accident, Hospital, Help)",Door to door/in person,Male,20-29,2140.0
+235,British Columbia,Romance,Internet-social network,Male,20-29,280.0
+236,Alberta,Job,Internet-social network,Male,20-29,350.0
+237,Ontario,Merchandise,Internet,Male,30-39,69.07
+238,Manitoba,Vendor Fraud,Internet,Female,40-49,100.0
+239,British Columbia,Merchandise,Internet,Female,40-49,57.92
+240,Ontario,Merchandise,Internet,Male,70-79,56.6
+241,Ontario,Service,Internet-social network,Female,20-29,60.0
+242,Quebec,Counterfeit Merchandise,Internet-social network,Female,20-29,106.39
+243,Ontario,Counterfeit Merchandise,Internet,Male,20-29,61.81
+244,Quebec,Vendor Fraud,Email,Female,60-69,405.0
+245,Saskatchewan,Merchandise,Internet,Female,30-39,1400.0
+246,British Columbia,Vendor Fraud,Text message,Female,20-29,100.0
+247,British Columbia,Merchandise,Internet,Male,20-29,469.0
+248,Alberta,Investments,Internet,Female,30-39,15000.0
+249,Ontario,Vendor Fraud,Text message,Female,50-59,126.54
+250,Quebec,Merchandise,Internet,Female,40-49,135.0
+251,Alberta,Vendor Fraud,Internet-social network,Female,30-39,193.0
+252,Ontario,Vendor Fraud,Internet,Male,20-29,800.0
+253,Quebec,Vendor Fraud,Internet,Male,30-39,2300.0
+254,Ontario,Extortion,Direct call,Female,20-29,13300.0
+255,Ontario,Extortion,Direct call,Male,20-29,3000.0
+256,Ontario,Merchandise,Internet-social network,Female,20-29,135.59
+257,British Columbia,Extortion,Direct call,Female,40-49,9000.0
+258,Ontario,Extortion,Direct call,Female,30-39,3820.0
+259,British Columbia,Merchandise,Internet-social network,Male,20-29,2000.0
+260,British Columbia,Merchandise,Internet-social network,Female,50-59,20.0
+261,Alberta,Merchandise,Internet,Female,40-49,194.61
+262,Alberta,Investments,Internet-social network,Female,10-19,384.92
+263,Saskatchewan,Extortion,Direct call,Male,60-69,266000.0
+264,Ontario,Job,Internet,Male,20-29,2900.0
+265,Manitoba,Romance,Internet-social network,Female,20-29,1900.0
+266,Ontario,Spear Phishing,Email,Female,30-39,600.0
+267,New Brunswick,Counterfeit Merchandise,Internet,Male,60-69,138.43
+268,Alberta,Vendor Fraud,Internet-social network,Female,20-29,231.5
+269,Quebec,Counterfeit Merchandise,Internet,Female,40-49,71.48
+270,New Brunswick,Job,Email,Male,20-29,0.01
+271,Ontario,Extortion,Direct call,Female,10-19,6500.0
+272,Nova Scotia,Romance,Internet-social network,Female,40-49,69000.0
+273,Alberta,"Emergency (Jail, Accident, Hospital, Help)",Direct call,Female,60-69,15500.0
+274,British Columbia,Romance,Internet-social network,Female,70-79,44591.2
+275,Ontario,Bank Investigator,Direct call,Male,60-69,4000.0
+276,British Columbia,Extortion,Direct call,Female,30-39,7000.0
+277,Ontario,Extortion,Direct call,Male,20-29,95090.0
+278,Ontario,Investments,Internet,Male,60-69,4000.0
+279,Ontario,Investments,Internet,Male,50-59,400000.0
+280,Ontario,Spear Phishing,Other/unknown,Female,20-29,600.0
+281,Quebec,Vendor Fraud,Email,Male,10-19,450.0
+282,California,Romance,Internet-social network,Male,30-39,16197.52
+283,Ontario,Extortion,Direct call,Female,20-29,5000.0
+284,Ontario,Merchandise,Internet-social network,Female,20-29,425.0
+285,Ontario,Service,Internet,Male,80-89,466.57
+286,Ontario,Job,Email,Female,20-29,1300.0
+287,Ontario,Extortion,Direct call,Male,70-79,12300.0
+288,Ontario,Job,Email,Female,20-29,980.0
+289,Ontario,Spear Phishing,Email,Female,50-59,2135.65
+290,Ontario,Job,Internet,Female,40-49,1000.0
+291,Ontario,Job,Email,Female,50-59,400.0
+292,Ontario,Loan,Internet-social network,Female,20-29,500.0
+293,Ontario,Extortion,Internet-social network,Male,30-39,3000.0
+294,Ontario,Job,Email,Female,40-49,2675.0
+295,Ontario,Merchandise,Internet,Female,50-59,43.44
+296,Ontario,Extortion,Other/unknown,Male,40-49,500.0
+297,Ontario,Job,Text message,Female,20-29,9400.0
+298,Ontario,Vendor Fraud,Internet,Male,70-79,1586.0
+299,Ontario,Service,Email,Female,70-79,3800.0
+300,Ontario,Service,Direct call,Male,70-79,30000.0
+301,Ontario,Romance,Internet-social network,Female,50-59,15000.0
+302,Ontario,Spear Phishing,Direct call,Female,20-29,980.0
+303,Ontario,Romance,Internet,Male,40-49,460.0
+304,Ontario,Spear Phishing,Direct call,Female,20-29,670.0
+305,Ontario,Job,Email,Female,20-29,1100.0
+306,Ontario,Romance,Internet-social network,Female,80-89,192198.69
+307,Ontario,Extortion,Direct call,Female,50-59,9000.0
+308,Quebec,Extortion,Direct call,Male,30-39,490.0
+309,Quebec,Extortion,Direct call,Female,10-19,3500.0
+310,Ontario,Romance,Internet-social network,Male,40-49,170000.0
+311,Ontario,Extortion,Direct call,Male,30-39,3820.0
+312,Ontario,Extortion,Direct call,Male,40-49,1900.0
+313,Ontario,Extortion,Direct call,Male,20-29,1600.0
+314,Manitoba,Job,Internet,Female,20-29,2500.0
+315,Ontario,Romance,Internet-social network,Male,30-39,4000.0
+316,Ontario,Merchandise,Internet,Female,70-79,533.53
+317,Quebec,"Emergency (Jail, Accident, Hospital, Help)",Email,Female,60-69,2800.0
+318,British Columbia,Service,Internet,Female,30-39,40.0
+319,Ontario,Romance,Internet-social network,Male,40-49,450.0
+320,Quebec,Loan,Internet,Male,40-49,500.0
+321,Quebec,Extortion,Direct call,Male,20-29,4600.0
+322,Saskatchewan,Extortion,Direct call,Female,10-19,5000.0
+323,Alberta,Loan,Door to door/in person,Female,20-29,210.0
+324,British Columbia,Merchandise,Internet-social network,Female,30-39,150.0
+325,Ontario,Investments,Internet-social network,Male,40-49,200000.0
+326,Quebec,Vendor Fraud,Internet,Female,10-19,80.45
+327,Ontario,Service,Direct call,Female,70-79,192.09
+328,British Columbia,Merchandise,Internet-social network,Female,30-39,105.0
+329,Alberta,Extortion,Direct call,Male,40-49,500.0
+330,Texas,Counterfeit Merchandise,Internet,Male,60-69,2439.15
+331,Ontario,Vendor Fraud,Text message,Female,10-19,600.0
+332,Ontario,Merchandise,Internet,Male,70-79,50.0
+333,Ontario,Merchandise,Internet-social network,Male,40-49,50.93
+334,Ontario,Merchandise,Internet-social network,Female,30-39,880.0
+335,New Brunswick,Vendor Fraud,Internet-social network,Female,20-29,430.0
+336,Ontario,Merchandise,Internet,Male,20-29,1242.49
+337,Alberta,Counterfeit Merchandise,Internet-social network,Female,30-39,58.47
+338,Quebec,Merchandise,Internet-social network,Male,30-39,500.0
+339,Quebec,Merchandise,Internet-social network,Male,40-49,127.46
+340,Ontario,Spear Phishing,Email,Female,50-59,750.0
+341,Quebec,Health,Internet,Female,30-39,309.0
+342,Quebec,Vendor Fraud,Internet-social network,Male,30-39,400.0
+343,Ontario,Counterfeit Merchandise,Internet,Female,70-79,29.81
+344,Ontario,Merchandise,Internet,Female,70-79,27.81
+345,Ontario,Merchandise,Email,Male,70-79,500.0
+346,Quebec,Bank Investigator,Direct call,Male,70-79,6000.0
+347,Quebec,Counterfeit Merchandise,Internet,Female,40-49,43.91
+348,Ontario,Vendor Fraud,Email,Male,30-39,2000.0
+349,British Columbia,Bank Investigator,Direct call,Female,60-69,6000.0
+350,Nova Scotia,Vendor Fraud,Internet,Female,30-39,600.0
+351,Ontario,Job,Internet,Male,20-29,1500.0
+352,Quebec,Counterfeit Merchandise,Internet-social network,Female,60-69,318.46
+353,Manitoba,"Emergency (Jail, Accident, Hospital, Help)",Direct call,Female,70-79,464220.0
+354,Ontario,Counterfeit Merchandise,Internet-social network,Male,50-59,57.92
+355,Ontario,Job,Internet,Female,20-29,700.0
+356,Ontario,Extortion,Direct call,Female,20-29,3700.0
+357,Quebec,Vendor Fraud,Internet,Male,10-19,200.0
+358,Ontario,Spear Phishing,Email,Female,30-39,2000.0
+359,Ontario,Investments,Internet-social network,Male,20-29,1000.0
+360,Ontario,Merchandise,Text message,Female,20-29,3300.0
+361,Ontario,Extortion,Direct call,Male,20-29,3500.0
+362,Ontario,Bank Investigator,Direct call,Female,50-59,1200.0
+363,British Columbia,Service,Internet,Male,70-79,892.29
+364,Ontario,Service,Internet-social network,Male,50-59,1440.75
+365,British Columbia,Spear Phishing,Email,Female,20-29,1000.0
+366,Quebec,Vendor Fraud,Email,Female,40-49,270.0
+367,Manitoba,Merchandise,Internet,Male,40-49,383.7
+368,Ontario,Service,Door to door/in person,Female,40-49,4700.0
+369,Ontario,Merchandise,Internet,Male,50-59,600.0
+370,Ontario,Merchandise,Email,Female,40-49,650.0
+371,Alberta,Vendor Fraud,Direct call,Male,60-69,69097.4
+372,Quebec,Counterfeit Merchandise,Internet-social network,Female,30-39,21.82
+373,Ontario,Merchandise,Internet,Male,40-49,650.0
+374,Ontario,Merchandise,Internet,Male,50-59,850.0
+375,Ontario,Merchandise,Email,Male,30-39,800.0
+376,Alberta,Service,Internet,Male,60-69,99.0
+377,Ontario,Merchandise,Internet,Male,50-59,650.0
+378,Quebec,Spear Phishing,Email,Female,40-49,2200.0
+379,Ontario,Merchandise,Text message,Male,40-49,150.0
+380,Ontario,Counterfeit Merchandise,Internet,Male,20-29,448.28
+381,Ontario,Vendor Fraud,Text message,Male,20-29,813.0
+382,Alberta,Merchandise,Internet-social network,Female,20-29,109.45
+383,Alberta,Extortion,Direct call,Male,40-49,570.0
+384,British Columbia,Counterfeit Merchandise,Internet-social network,Male,30-39,154.81
+385,Quebec,"Emergency (Jail, Accident, Hospital, Help)",Email,Female,60-69,1400.0
+386,Quebec,Merchandise,Internet-social network,Female,30-39,186.01
+387,Ontario,Merchandise,Internet-social network,Female,30-39,106.72
+388,Ontario,Job,Internet-social network,Male,70-79,3000.0
+389,Manitoba,Vendor Fraud,Text message,Male,20-29,122.64
+390,Ontario,Merchandise,Internet-social network,Male,20-29,650.0
+391,Quebec,Counterfeit Merchandise,Internet-social network,Female,40-49,39.08
+392,Ontario,Job,Email,Female,20-29,1840.0
+393,Quebec,Merchandise,Internet,Male,50-59,36.04
+394,Manitoba,Spear Phishing,Email,Female,30-39,500.0
+395,Quebec,Extortion,Direct call,Female,20-29,300.0
+396,Ontario,Merchandise,Internet-social network,Female,30-39,149.94
+397,Alberta,Investments,Internet,Male,60-69,318.83
+398,Ontario,Spear Phishing,Email,Male,40-49,200.0
+399,Ontario,Service,Internet,Male,40-49,99.0
+400,Ontario,Foreign Money Offer,Other/unknown,Male,70-79,500000.0
+401,Nova Scotia,Vendor Fraud,Internet,Female,10-19,500.0
+402,Ontario,Vendor Fraud,Internet,Male,20-29,475.0
+403,Quebec,Vendor Fraud,Internet,Female,10-19,65.0
+404,Ontario,Job,Internet-social network,Male,20-29,700.0
+405,Quebec,Merchandise,Internet-social network,Male,30-39,250.0
+406,Quebec,Merchandise,Internet,Male,40-49,1000.0
+407,Quebec,Investments,Internet,Male,60-69,66321.88
+408,Ontario,Spear Phishing,Email,Female,50-59,150.0
+409,British Columbia,Merchandise,Internet,Female,30-39,563.23
+410,Alberta,Loan,Email,Female,30-39,1250.0
+411,British Columbia,Merchandise,Internet-social network,Female,70-79,70.46
+412,Ontario,Job,Email,Female,30-39,10.0
+413,Ontario,Merchandise,Text message,Female,30-39,2000.0
+414,Saskatchewan,Romance,Internet-social network,Female,60-69,10050.0
+415,British Columbia,Merchandise,Internet,Male,60-69,39.99
+416,Ontario,Romance,Email,Male,70-79,30378.15
+417,Alberta,Vendor Fraud,Text message,Male,20-29,350.0
+418,British Columbia,Extortion,Direct call,Female,20-29,2500.0
+419,British Columbia,Merchandise,Internet,Male,20-29,3920.89
+420,Ontario,Service,Internet,Female,30-39,397.0
+421,Nova Scotia,Merchandise,Internet,Female,40-49,39.66
+422,British Columbia,Job,Text message,Male,20-29,2000.0
+423,Quebec,Romance,Internet,Male,60-69,2500.0
+424,Quebec,Vendor Fraud,Internet,Female,30-39,120.0
+425,Ontario,Investments,Internet-social network,Female,20-29,85100.0
+426,Alberta,Counterfeit Merchandise,Internet,Male,30-39,8500.0
+427,Ontario,Merchandise,Internet-social network,Male,40-49,39.07
+428,Manitoba,Loan,Email,Male,40-49,1025.0
+429,Manitoba,Merchandise,Internet-social network,Female,60-69,214.93
+430,Alberta,Vendor Fraud,Text message,Male,40-49,35.0
+431,Ontario,Merchandise,Internet,Male,60-69,2000.0
+432,British Columbia,Merchandise,Internet-social network,Female,30-39,175.41
+433,Ontario,Merchandise,Internet-social network,Male,50-59,900.0
+434,Ontario,Merchandise,Internet,Male,30-39,1000.0
+435,Ontario,Service,Direct call,Male,40-49,2000.0
+436,Alberta,Loan,Email,Male,30-39,3050.0
+437,Ontario,Merchandise,Internet,Male,40-49,75.0
+438,Alberta,Merchandise,Internet-social network,Female,40-49,1350.0
+439,Quebec,Merchandise,Internet-social network,Male,30-39,50.0
+440,Ontario,Vendor Fraud,Other/unknown,Male,10-19,450.0
+441,Ontario,Merchandise,Internet,Female,20-29,1200.0
+442,Ontario,Merchandise,Internet,Male,20-29,1350.0
+443,British Columbia,Bank Investigator,Direct call,Female,60-69,8600.0
+444,Ontario,Merchandise,Internet,Female,20-29,288.0
+445,Ontario,Prize,Other/unknown,Male,50-59,72.46
+446,British Columbia,Service,Door to door/in person,Male,60-69,100.47
+447,Quebec,Merchandise,Internet-social network,Female,20-29,24.88
+448,Alberta,Vendor Fraud,Text message,Male,50-59,300.0
+449,Quebec,Merchandise,Internet-social network,Female,30-39,650.0
+450,California,Merchandise,Internet-social network,Female,10-19,183.05
+451,Quebec,Service,Other/unknown,Male,50-59,917.19
+452,Ontario,Merchandise,Internet-social network,Male,20-29,1000.0
+453,Ontario,Merchandise,Internet-social network,Female,60-69,113.42
+454,Quebec,Counterfeit Merchandise,Internet,Male,30-39,3222.74
+455,Quebec,"Emergency (Jail, Accident, Hospital, Help)",Email,Male,60-69,500.0
+456,Quebec,Vendor Fraud,Text message,Male,30-39,450.0
+457,British Columbia,Merchandise,Internet-social network,Male,60-69,9300.0
+458,Nova Scotia,Merchandise,Other/unknown,Female,50-59,100.0
+459,Ontario,Merchandise,Internet-social network,Male,40-49,316.06
+460,Manitoba,Merchandise,Internet-social network,Female,70-79,121.0
+461,British Columbia,Vacation,Internet,Female,20-29,321.0
+462,Ontario,Merchandise,Internet-social network,Female,20-29,300.0
+463,British Columbia,Merchandise,Internet,Female,20-29,160.0
+464,Nova Scotia,Merchandise,Internet-social network,Male,50-59,157.38
+465,Ontario,Counterfeit Merchandise,Internet-social network,Male,50-59,308.1
+466,Alberta,Merchandise,Internet,Female,50-59,217.73
+467,Ontario,Extortion,Direct call,Female,60-69,95500.0
+468,Alberta,Loan,Email,Female,20-29,2599.0
+469,Ontario,Vendor Fraud,Email,Female,20-29,2393.68
+470,Quebec,Service,Internet,Female,70-79,316.7
+471,Alberta,Vendor Fraud,Internet-social network,Male,70-79,50.0
+472,Quebec,Merchandise,Email,Female,30-39,500.0
+473,Ontario,Investments,Internet,Female,30-39,21350.0
+474,Ontario,Merchandise,Internet-social network,Male,20-29,500.0
+475,Manitoba,Extortion,Direct call,Female,20-29,4130.0
+476,Nova Scotia,Counterfeit Merchandise,Internet-social network,Male,30-39,275.0
+477,Ontario,Romance,Internet-social network,Female,10-19,1000.0
+478,Manitoba,Vendor Fraud,Text message,Male,10-19,250.0
+479,Quebec,Merchandise,Internet,Female,50-59,300.97
+480,Alberta,Job,Email,Female,30-39,5650.0
+481,Nova Scotia,Service,Direct call,Female,60-69,300.0
+482,Alberta,Service,Email,Female,30-39,2.11
+483,British Columbia,Vendor Fraud,Internet-social network,Female,20-29,3800.0
+484,Quebec,Merchandise,Email,Female,30-39,600.0
+485,Quebec,Investments,Internet,Male,50-59,350.0
+486,British Columbia,Job,Internet,Female,20-29,4100.0
+487,Ontario,Merchandise,Internet,Female,60-69,3850.0
+488,New Brunswick,Bank Investigator,Direct call,Female,60-69,19500.0
+489,Ontario,Vendor Fraud,Text message,Female,20-29,3850.0
+490,Ontario,Vendor Fraud,Email,Male,10-19,850.0
+491,Nova Scotia,GRANT,Internet-social network,Female,70-79,200.0
+492,Ontario,Prize,Direct call,Male,60-69,490.0
+493,Quebec,Vendor Fraud,Internet,Female,20-29,100.0
+494,Alberta,Bank Investigator,Email,Female,50-59,4250.0
+495,Ontario,Romance,Internet-social network,Female,30-39,24000.0
+496,British Columbia,Merchandise,Internet-social network,Female,50-59,400.0
+497,Saskatchewan,Merchandise,Internet,Female,30-39,103.47
+498,Ontario,Merchandise,Text message,Male,50-59,2500.0
+499,British Columbia,Counterfeit Merchandise,Internet-social network,Male,20-29,190.61
+500,Alberta,Merchandise,Internet-social network,Female,30-39,171.08
+501,Ontario,Vendor Fraud,Text message,Male,20-29,370.0
+502,Ontario,Merchandise,Internet,Male,50-59,150.0
+503,British Columbia,Vendor Fraud,Internet-social network,Male,20-29,100.0
+504,Alberta,Merchandise,Internet,Male,40-49,263.53
+505,British Columbia,Counterfeit Merchandise,Internet,Female,10-19,69.57
+506,Ontario,Counterfeit Merchandise,Internet,Female,40-49,148.48
+507,Quebec,Counterfeit Merchandise,Internet,Male,40-49,64.02
+508,Ontario,Counterfeit Merchandise,Internet,Female,50-59,1550.0
+509,British Columbia,Merchandise,Internet-social network,Male,40-49,132.98
+510,Ontario,Vendor Fraud,Text message,Male,20-29,1870.0
+511,Newfoundland And Labrador,Merchandise,Internet,Male,10-19,300.0
+512,Ontario,Spear Phishing,Email,Female,40-49,2069.5
+513,New Jersey,Vendor Fraud,Internet,Male,40-49,318.65
+514,Alberta,Merchandise,Internet,Male,40-49,190.91
+515,Quebec,Vendor Fraud,Email,Female,10-19,110.0
+516,Ontario,Investments,Internet-social network,Female,20-29,7249.62
+517,Alberta,Merchandise,Internet,Female,40-49,20.8
+518,Alberta,Service,Internet-social network,Male,30-39,638.1
+519,Ontario,Merchandise,Internet-social network,Male,20-29,650.0
+520,Ontario,Merchandise,Internet,Female,70-79,2158.82
+521,Saskatchewan,Counterfeit Merchandise,Internet,Male,30-39,1373.64
+522,Alberta,Counterfeit Merchandise,Internet,Male,60-69,98.0
+523,Ontario,Merchandise,Internet,Male,20-29,478.67
+524,Quebec,Counterfeit Merchandise,Internet,Female,60-69,440.58
+525,British Columbia,Counterfeit Merchandise,Internet,Female,40-49,102.82
+526,Ontario,Vendor Fraud,Text message,Female,40-49,1100.0
+527,Quebec,Vendor Fraud,Text message,Female,50-59,300.0
+528,Quebec,Investments,Internet,Male,30-39,9014.45
+529,Ontario,Romance,Internet-social network,Female,20-29,3000.0
+530,Ontario,Service,Direct call,Female,70-79,189.99
+531,Manitoba,Romance,Internet-social network,Male,60-69,500000.0
+532,Quebec,Investments,Internet,Female,30-39,7300.0
+533,British Columbia,Vendor Fraud,Internet-social network,Female,20-29,2000.0
+534,Ontario,Service,Email,Female,70-79,29500.0
+535,Ontario,Job,Internet-social network,Female,20-29,1000.0
+536,New Brunswick,"Emergency (Jail, Accident, Hospital, Help)",Direct call,Female,80-89,18800.0
+537,Ontario,Vendor Fraud,Text message,Female,20-29,450.0
+538,Quebec,Counterfeit Merchandise,Internet-social network,Male,60-69,34.36
+539,Ontario,Merchandise,Internet,Male,70-79,445.73
+540,Quebec,Counterfeit Merchandise,Internet-social network,Male,30-39,53.14
+541,Prince Edward Island,Vendor Fraud,Text message,Male,30-39,325.0
+542,Ontario,Merchandise,Text message,Male,30-39,300.0
+543,British Columbia,Service,Email,Male,10-19,200.0
+544,Quebec,Merchandise,Internet,Male,30-39,88.28
+545,Manitoba,Vendor Fraud,Text message,Female,30-39,3850.0
+546,Ontario,Prize,Internet-social network,Female,60-69,2000.0
+547,Ontario,Spear Phishing,Email,Female,50-59,3000.0
+548,Ontario,Prize,Mail,Male,80-89,115581.0
+549,Ontario,Merchandise,Email,Male,30-39,3441.68
+550,Alberta,Merchandise,Internet,Male,60-69,62.19
+551,Quebec,Counterfeit Merchandise,Internet-social network,Female,40-49,141.75
+552,Alberta,Spear Phishing,Internet-social network,Female,30-39,1100.0
+553,Ontario,"Emergency (Jail, Accident, Hospital, Help)",Direct call,Male,60-69,700.0
+554,Saskatchewan,Service,Direct call,Male,60-69,124458.98
+555,Nova Scotia,Counterfeit Merchandise,Internet,Female,60-69,57.96
+556,Ontario,Merchandise,Internet,Female,40-49,101.64
+557,Quebec,Counterfeit Merchandise,Internet,Female,30-39,170.06
+558,Quebec,Romance,Internet-social network,Female,50-59,11600.0
+559,Ontario,Service,Internet,Female,30-39,4000.0
+560,Ontario,Service,Direct call,Male,70-79,3500.0
+561,Ontario,Merchandise,Internet,Male,30-39,105.0
+562,Manitoba,Counterfeit Merchandise,Internet,Female,20-29,183.62
+563,Ontario,Service,Direct call,Male,30-39,2260.0
+564,Quebec,Service,Internet,Male,50-59,184.0
+565,Nova Scotia,Merchandise,Internet-social network,Female,20-29,119.5
+566,Ontario,Merchandise,Email,Female,60-69,761.1
+567,Alberta,Counterfeit Merchandise,Internet,Male,70-79,86.36
+568,Ontario,Merchandise,Internet-social network,Female,40-49,369.9
+569,Ontario,False Billing,Text message,Male,40-49,5.0
+570,Ontario,Merchandise,Internet,Male,50-59,138.03
+571,Quebec,Job,Email,Male,50-59,0.01
+572,Connecticut,Investments,Radio,Male,80-89,997.0
+573,Manitoba,Counterfeit Merchandise,Internet,Male,50-59,129.75
+574,Alberta,Extortion,Direct call,Female,20-29,55900.0
+575,Alberta,Counterfeit Merchandise,Internet,Male,70-79,167.56
+576,Ontario,Merchandise,Text message,Female,40-49,1200.0
+577,Quebec,Merchandise,Internet,Female,30-39,170.06
+578,Quebec,Merchandise,Internet,Male,30-39,85.99
+579,Quebec,Merchandise,Internet,Male,30-39,129.81
+580,Alberta,Service,Email,Female,30-39,890.89
+581,Ontario,Merchandise,Internet-social network,Female,30-39,500.0
+582,Ontario,Spear Phishing,Email,Female,20-29,1200.0
+583,Alberta,Merchandise,Door to door/in person,Male,20-29,160.0
+584,Ontario,Investments,Internet-social network,Male,10-19,3200.0
+585,Alberta,Bank Investigator,Direct call,Female,60-69,2000.0
+586,Alberta,Loan,Direct call,Male,50-59,2950.0
+587,Quebec,Vendor Fraud,Direct call,Male,70-79,20.89
+588,Ontario,Vendor Fraud,Email,Female,20-29,3870.0
+589,Alberta,Bank Investigator,Direct call,Male,40-49,4000.0
+590,Nova Scotia,Spear Phishing,Text message,Female,50-59,300.0
+591,Ontario,Merchandise,Internet,Male,40-49,83.07
+592,Quebec,Merchandise,Internet,Female,40-49,289.2
+593,Manitoba,Extortion,Direct call,Female,20-29,9490.0
+594,Ontario,Job,Email,Male,30-39,3799.0
+595,Alberta,Romance,Internet-social network,Male,50-59,6410.74
+596,Quebec,Counterfeit Merchandise,Internet-social network,Male,40-49,176.0
+597,Ontario,Counterfeit Merchandise,Internet,Female,80-89,133.64
+598,Ontario,Service,Text message,Female,20-29,400.0
+599,Alberta,Counterfeit Merchandise,Internet-social network,Male,60-69,70.06
+600,Nova Scotia,Merchandise,Email,Female,40-49,500.0
+601,Quebec,Counterfeit Merchandise,Internet,Female,30-39,133.06
+602,Nova Scotia,Merchandise,Internet,Female,60-69,270.36
+603,Ontario,Counterfeit Merchandise,Internet-social network,Male,60-69,119.64
+604,Ontario,Spear Phishing,Email,Female,30-39,1200.0
+605,Ontario,Investments,Internet,Male,30-39,10350.0
+606,Saskatchewan,Merchandise,Internet,Female,40-49,64.0
+607,Ontario,Service,Internet,Female,80-89,260.0
+608,Ontario,Merchandise,Text message,Male,20-29,1150.0
+609,British Columbia,Merchandise,Internet-social network,Male,30-39,55.47
+610,Ontario,Counterfeit Merchandise,Internet-social network,Female,30-39,149.15
+611,Alberta,Counterfeit Merchandise,Internet,Female,70-79,130.0
+612,British Columbia,Counterfeit Merchandise,Email,Female,30-39,514.19
+613,Quebec,Merchandise,Internet,Male,30-39,250.0
+614,Ontario,Job,Text message,Female,20-29,900.0
+615,Alberta,Spear Phishing,Text message,Female,50-59,400.0
+616,Quebec,"Emergency (Jail, Accident, Hospital, Help)",Direct call,Male,40-49,1027.0
+617,New Brunswick,"Emergency (Jail, Accident, Hospital, Help)",Direct call,Female,60-69,7650.0
+618,Saskatchewan,Pyramid,Door to door/in person,Male,30-39,5000.0
+619,British Columbia,Vendor Fraud,Internet,Male,10-19,1100.0
+620,Ontario,Bank Investigator,Direct call,Female,60-69,13500.0
+621,Quebec,Vendor Fraud,Internet,Male,20-29,300.0
+622,Ontario,Vendor Fraud,Text message,Male,40-49,472.64
+623,Ontario,Job,Internet,Female,20-29,3910.0
+624,Newfoundland And Labrador,Romance,Internet-social network,Female,60-69,234450.0
+625,Ontario,Investments,Door to door/in person,Male,50-59,28500.0
+626,British Columbia,Extortion,Direct call,Female,60-69,14400.0
+627,Quebec,Merchandise,Door to door/in person,Male,40-49,375.0
+628,Ontario,Job,Email,Female,30-39,1500.0
+629,Quebec,Vendor Fraud,Email,Male,60-69,60.0
+630,Alberta,Service,Direct call,Male,30-39,735.0
+631,Ontario,Merchandise,Internet,Male,50-59,11.5
+632,Ontario,Merchandise,Internet-social network,Male,50-59,162.0
+633,British Columbia,Vendor Fraud,Text message,Female,20-29,462.0
+634,Alberta,Extortion,Direct call,Female,10-19,400.0
+635,Alberta,Bank Investigator,Direct call,Male,40-49,4000.0
+636,Alberta,Spear Phishing,Email,Female,40-49,1000.0
+637,Nova Scotia,Merchandise,Internet-social network,Male,20-29,138.0
+638,Quebec,Vendor Fraud,Text message,Male,10-19,22.19
+639,Ontario,Spear Phishing,Email,Male,40-49,1000.0
+640,Ontario,Merchandise,Internet-social network,Female,40-49,168.79
+641,Quebec,Investments,Internet-social network,Male,30-39,50.0
+642,Ontario,Spear Phishing,Email,Male,50-59,2368.21
+643,Ontario,Extortion,Direct call,Male,30-39,8021.0
+644,Alberta,"Emergency (Jail, Accident, Hospital, Help)",Email,Female,30-39,1700.0
+645,Quebec,Bank Investigator,Direct call,Female,70-79,12600.0
+646,Quebec,Counterfeit Merchandise,Internet-social network,Female,40-49,102.77
+647,Quebec,Merchandise,Internet,Female,20-29,150.0
+648,Ontario,Vendor Fraud,Text message,Male,20-29,450.0
+649,Quebec,Bank Investigator,Direct call,Female,60-69,3000.0
+650,Ontario,Extortion,Direct call,Female,70-79,17000.0
+651,Quebec,Counterfeit Merchandise,Internet-social network,Male,60-69,819.53
+652,Quebec,Vendor Fraud,Internet,Female,20-29,250.0
+653,Quebec,Unauthorized Charge,Direct call,Female,70-79,13.41
+654,Ontario,Vendor Fraud,Text message,Male,50-59,319.13
+655,Ontario,Vendor Fraud,Internet-social network,Female,20-29,246.02
+656,Ontario,Extortion,Direct call,Male,70-79,1900.0
+657,New Brunswick,"Emergency (Jail, Accident, Hospital, Help)",Email,Female,70-79,600.0
+658,Ontario,Merchandise,Internet,Male,50-59,1202.86
+659,Ontario,Extortion,Direct call,Male,20-29,2200.0
+660,Quebec,Merchandise,Email,Female,20-29,500.0
+661,Colorado,Merchandise,Door to door/in person,Female,50-59,5131.24
+662,Alberta,Service,Other/unknown,Female,50-59,1891.29
+663,British Columbia,Spear Phishing,Email,Male,20-29,1200.0
+664,British Columbia,Romance,Direct call,Female,90-99,4200.0
+665,Ontario,Vendor Fraud,Text message,Male,20-29,220.0
+666,Quebec,Counterfeit Merchandise,Internet-social network,Female,40-49,47.92
+667,Quebec,Merchandise,Internet,Female,30-39,125.26
+668,Alberta,Merchandise,Internet-social network,Female,40-49,169.53
+669,Alberta,Service,Text message,Female,60-69,10000.0
+670,Ontario,Extortion,Direct call,Female,20-29,1000.0
+671,Ontario,Merchandise,Internet-social network,Female,30-39,12.99
+672,Ontario,Merchandise,Text message,Male,10-19,640.0
+673,Quebec,Counterfeit Merchandise,Internet-social network,Male,30-39,112.69
+674,Manitoba,Job,Internet,Male,30-39,450.0
+675,Ontario,Service,Internet,Female,20-29,51.75
+676,Quebec,Merchandise,Text message,Male,40-49,550.0
+677,Ontario,Job,Text message,Male,20-29,13365.0
+678,Ontario,Job,Email,Male,20-29,7000.0
+679,Ontario,Merchandise,Internet,Male,30-39,440.47
+680,British Columbia,Bank Investigator,Direct call,Female,40-49,3000.0
+681,Ontario,Merchandise,Text message,Male,10-19,640.0
+682,British Columbia,Extortion,Direct call,Female,30-39,35000.0
+683,Alberta,Merchandise,Internet-social network,Female,10-19,821.0
+684,New Brunswick,Spear Phishing,Email,Female,30-39,500.0
+685,Ontario,Investments,Direct call,Male,20-29,2420.0
+686,Ontario,Merchandise,Internet-social network,Male,10-19,65.0
+687,Ontario,Merchandise,Internet-social network,Male,30-39,5871.09
+688,Alberta,Service,Direct call,Female,60-69,1800.0
+689,Saskatchewan,Merchandise,Internet-social network,Female,60-69,313.83
+690,Alberta,Merchandise,Internet-social network,Male,70-79,19.99
+691,Ontario,Merchandise,Internet-social network,Male,50-59,50.0
+692,Quebec,Service,Internet,Male,70-79,381.93
+693,Ontario,Merchandise,Internet-social network,Male,50-59,150.0
+694,British Columbia,Merchandise,Internet,Female,70-79,296.24
+695,Ontario,Merchandise,Email,Female,30-39,2150.0
+696,Ontario,Service,Internet-social network,Male,40-49,35.0
+697,Quebec,Investments,Internet-social network,Male,20-29,631.35
+698,Ontario,Investments,Door to door/in person,Male,60-69,160974.73
+699,Quebec,Merchandise,Internet,Male,40-49,165.0
+700,Saskatchewan,Vendor Fraud,Text message,Female,50-59,227.31
+701,New Brunswick,Romance,Internet-social network,Male,30-39,838.71
+702,Ontario,Vendor Fraud,Text message,Male,20-29,750.0
+703,Quebec,Spear Phishing,Email,Male,20-29,600.0
+704,British Columbia,Counterfeit Merchandise,Internet,Female,40-49,85.0
+705,Ontario,Merchandise,Internet-social network,Female,10-19,305.23
+706,Alberta,Merchandise,Internet-social network,Female,40-49,1.99
+707,Ontario,Merchandise,Email,Female,20-29,32.87
+708,Ontario,Merchandise,Internet,Male,40-49,123.0
+709,Saskatchewan,Investments,Other/unknown,Male,40-49,4533.25
+710,Quebec,Romance,Internet-social network,Male,30-39,100.0
+711,Ontario,Extortion,Direct call,Female,30-39,3000.0
+712,Ontario,Job,Other/unknown,Male,20-29,8000.0
+713,Saskatchewan,Extortion,Direct call,Female,60-69,6000.0
+714,New Brunswick,Merchandise,Internet-social network,Male,30-39,55.67
+715,Ontario,"Emergency (Jail, Accident, Hospital, Help)",Email,Female,60-69,250.0
+716,Ontario,Investments,Internet-social network,Female,20-29,1020.0
+717,Ontario,"Emergency (Jail, Accident, Hospital, Help)",Email,Male,60-69,400.0
+718,Ontario,Merchandise,Email,Male,20-29,148.0
+719,Quebec,Counterfeit Merchandise,Internet-social network,Female,40-49,178.0
+720,British Columbia,Merchandise,Internet,Male,60-69,146.01
+721,Ontario,Service,Internet,Male,80-89,677.5
+722,Quebec,Vendor Fraud,Direct call,Female,10-19,270.0
+723,Ontario,"Emergency (Jail, Accident, Hospital, Help)",Email,Female,40-49,1200.0
+724,Quebec,Vendor Fraud,Internet,Female,60-69,69.81
+725,Quebec,Investments,Internet,Male,40-49,2200.0
+726,Ontario,Merchandise,Internet,Male,40-49,1500.0
+727,Quebec,Health,Internet-social network,Male,60-69,309.34
+728,Nova Scotia,Merchandise,Internet,Female,20-29,100.0
+729,British Columbia,Bank Investigator,Direct call,Male,80-89,6500.0
+730,Ontario,Extortion,Direct call,Male,60-69,16200.0
+731,Ontario,Merchandise,Email,Male,30-39,586.65
+732,Ontario,Merchandise,Internet,Female,30-39,4763.67
+733,Ontario,"Emergency (Jail, Accident, Hospital, Help)",Email,Female,70-79,500.0
+734,Quebec,Counterfeit Merchandise,Internet,Female,70-79,157.54
+735,Ontario,Merchandise,Internet,Male,20-29,1330.0
+736,New Hampshire,Merchandise,Internet,Male,80-89,411.71
+737,Quebec,Merchandise,Internet-social network,Female,60-69,140.87
+738,British Columbia,Vendor Fraud,Text message,Female,40-49,480.0
+739,Quebec,Merchandise,Text message,Female,30-39,750.0
+740,Ontario,Merchandise,Internet,Male,30-39,83.07
+741,Manitoba,Extortion,Direct call,Female,10-19,17000.0
+742,Ontario,Merchandise,Internet,Male,20-29,500.0
+743,Manitoba,Vendor Fraud,Internet-social network,Female,40-49,1670.0
+744,Ontario,Merchandise,Internet-social network,Female,30-39,83.31
+745,Ontario,Merchandise,Other/unknown,Male,20-29,4133.45
+746,Ontario,Vendor Fraud,Text message,Male,20-29,670.0
+747,Ontario,Vendor Fraud,Direct call,Female,40-49,23000.0
+748,New Brunswick,Job,Email,Male,10-19,2900.0
+749,Ontario,Counterfeit Merchandise,Internet,Female,40-49,132.0
+750,British Columbia,Bank Investigator,Direct call,Female,60-69,21000.0
+751,Ontario,Extortion,Internet,Male,20-29,650.0
+752,Ontario,Extortion,Direct call,Female,10-19,8128.0
+753,Ontario,Merchandise,Internet,Female,20-29,200.0
+754,Saskatchewan,Merchandise,Internet-social network,Female,40-49,100.0
+755,British Columbia,Counterfeit Merchandise,Internet,Male,30-39,171.47
+756,Alberta,Merchandise,Internet-social network,Female,40-49,57.6
+757,Nova Scotia,Vendor Fraud,Internet,Male,20-29,400.0
+758,Manitoba,Extortion,Direct call,Male,30-39,18300.0
+759,Manitoba,Other,Direct call,Female,70-79,1000.0
+760,Ontario,Spear Phishing,Email,Male,20-29,2000.0
+761,Ontario,Counterfeit Merchandise,Internet,Female,30-39,194.09
+762,Ontario,Merchandise,Internet,Male,20-29,900.0
+763,Ontario,Counterfeit Merchandise,Internet,Female,30-39,194.09
+764,Alberta,Vendor Fraud,Direct call,Female,30-39,80.0
+765,Ontario,Investments,Internet-social network,Female,20-29,18000.0
+766,Ontario,Merchandise,Internet,Male,20-29,250.0
+767,Ontario,Merchandise,Internet,Female,30-39,330.1
+768,British Columbia,Merchandise,Email,Female,30-39,2219.99
+769,British Columbia,Spear Phishing,Email,Female,20-29,1000.0
+770,Ontario,Investments,Internet,Male,30-39,317.68
+771,Ontario,Merchandise,Internet,Male,20-29,1200.0
+772,Ontario,Vendor Fraud,Internet,Female,20-29,7630.0
+773,Manitoba,Service,Email,Female,100 +,1.25
+774,Quebec,Investments,Internet,Male,20-29,2000.0
+775,Saskatchewan,Prize,Internet,Female,60-69,1.0
+776,Alberta,Merchandise,Internet,Male,60-69,16.99
+777,Quebec,Vendor Fraud,Internet,Male,40-49,75.0
+778,Manitoba,Counterfeit Merchandise,Email,Female,20-29,1950.0
+779,New Brunswick,Romance,Internet-social network,Male,30-39,975.0
+780,Ontario,Vendor Fraud,Internet-social network,Female,20-29,2300.0
+781,Manitoba,Merchandise,Internet-social network,Male,20-29,125.0
+782,Ontario,Bank Investigator,Direct call,Male,70-79,8000.0
+783,Ontario,Extortion,Direct call,Male,20-29,20000.0
+784,Ontario,Vendor Fraud,Direct call,Male,40-49,17637.61
+785,Quebec,Service,Internet,Male,50-59,40.15
+786,Ontario,Merchandise,Internet,Male,20-29,400.0
+787,Ontario,Merchandise,Internet,Female,40-49,650.0
+788,Ontario,Merchandise,Internet,Male,30-39,370.0
+789,British Columbia,Merchandise,Internet,Female,30-39,181.91
+790,Ontario,Vendor Fraud,Internet,Male,30-39,135.0
+791,Ontario,Vendor Fraud,Internet,Male,30-39,135.0
+792,Ontario,Job,Email,Female,50-59,15675.0
+793,Ontario,Extortion,Direct call,Female,30-39,1000.0
+794,Quebec,Spear Phishing,Email,Male,70-79,3980.0
+795,Quebec,Counterfeit Merchandise,Internet-social network,Male,30-39,53.27
+796,British Columbia,Job,Internet-social network,Female,30-39,1050.0
+797,Ontario,Merchandise,Internet-social network,Male,20-29,250.0
+798,Ontario,Extortion,Direct call,Female,30-39,5000.0
+799,Ontario,Merchandise,Internet-social network,Female,10-19,299.0
+800,Ontario,Vendor Fraud,Internet,Female,20-29,350.0
+801,Ontario,Vendor Fraud,Internet,Male,40-49,60.0
+802,Quebec,Job,Internet,Female,20-29,1955.0
+803,British Columbia,Counterfeit Merchandise,Internet,Male,30-39,356.26
+804,Manitoba,Job,Email,Male,20-29,2000.0
+805,Ontario,Service,Print,Male,50-59,300.0
+806,Quebec,Merchandise,Internet-social network,Female,60-69,171.0
+807,Ontario,Extortion,Direct call,Male,30-39,2700.0
+808,Quebec,Merchandise,Internet-social network,Female,70-79,259.78
+809,Alberta,Vendor Fraud,Internet-social network,Male,20-29,367.71
+810,British Columbia,Vendor Fraud,Text message,Male,40-49,348.93
+811,Ontario,Loan,Email,Female,50-59,510.0
+812,Alberta,Service,Internet,Female,20-29,160.26
+813,Manitoba,Service,Direct call,Female,50-59,1612.0
+814,Newfoundland And Labrador,Merchandise,Text message,Male,50-59,585.0
+815,Ontario,Merchandise,Internet,Female,60-69,79.22
+816,Alberta,Vendor Fraud,Text message,Female,20-29,300.0
+817,British Columbia,Merchandise,Internet-social network,Female,30-39,164.11
+818,Ontario,Bank Investigator,Direct call,Female,70-79,2000.0
+819,Quebec,Merchandise,Email,Female,30-39,1350.0
+820,Quebec,Romance,Internet-social network,Male,60-69,510.0
+821,Ontario,Extortion,Direct call,Female,20-29,500.0
+822,Quebec,Extortion,Direct call,Female,50-59,1200.0
+823,Manitoba,Job,Email,Male,10-19,2000.0
+824,Alberta,Merchandise,Internet-social network,Male,40-49,172.86
+825,Quebec,Merchandise,Email,Female,20-29,800.0
+826,Ontario,Vendor Fraud,Text message,Female,30-39,32.63
+827,Manitoba,Counterfeit Merchandise,Internet-social network,Male,30-39,130.37
+828,Ontario,Investments,Internet-social network,Female,20-29,28000.0
+829,Alberta,Service,Internet,Female,30-39,331.0
+830,Quebec,Merchandise,Internet,Female,60-69,173.42
+831,Ontario,Merchandise,Internet,Male,20-29,109.16
+832,Manitoba,Investments,Internet-social network,Male,60-69,30000.0
+833,Quebec,Counterfeit Merchandise,Internet-social network,Male,40-49,40.53
+834,Ontario,"Emergency (Jail, Accident, Hospital, Help)",Internet-social network,Female,70-79,20000.0
+835,Quebec,Merchandise,Text message,Male,30-39,616.0
+836,Ontario,Vendor Fraud,Internet-social network,Male,30-39,120.0
+837,Ontario,Merchandise,Internet-social network,Female,40-49,69.95
+838,Quebec,Merchandise,Internet-social network,Male,50-59,2820.0
+839,Ontario,Vendor Fraud,Internet-social network,Female,30-39,90.0
+840,Quebec,Merchandise,Internet-social network,Male,20-29,2600.0
+841,Ontario,Merchandise,Internet,Male,20-29,16.39
+842,Ontario,Vendor Fraud,Internet,Male,10-19,1730.0
+843,Ontario,Romance,Internet-social network,Female,60-69,55000.0
+844,British Columbia,Service,Direct call,Male,50-59,887.27
+845,Ontario,Investments,Internet,Male,40-49,328.0
+846,Ontario,Vendor Fraud,Internet-social network,Male,20-29,350.0
+847,Alberta,Merchandise,Internet-social network,Male,40-49,102.82
+848,British Columbia,Merchandise,Internet,Male,10-19,260.01
+849,British Columbia,Merchandise,Internet,Male,40-49,156.87
+850,Ontario,Job,Internet-social network,Male,30-39,2000.0
+851,Saskatchewan,Prize,Direct call,Female,70-79,700.0
+852,British Columbia,Extortion,Direct call,Female,20-29,2500.0
+853,Quebec,Vendor Fraud,Internet,Female,10-19,800.0
+854,Newfoundland And Labrador,Extortion,Direct call,Male,20-29,3300.0
+855,Ontario,Vendor Fraud,Internet,Female,40-49,500.0
+856,Ontario,Romance,Internet-social network,Female,50-59,1995.0
+857,British Columbia,Service,Internet,Male,50-59,70.0
+858,Ontario,Bank Investigator,Direct call,Female,80-89,24750.0
+859,Ontario,Spear Phishing,Email,Female,40-49,1743.21
+860,Quebec,Extortion,Direct call,Male,20-29,2400.0
+861,British Columbia,Merchandise,Internet,Female,40-49,99.71
+862,Nevada,Romance,Internet,Female,40-49,12000.0
+863,British Columbia,Service,Text message,Female,60-69,3.0
+864,Quebec,Loan,Internet,Female,40-49,720.0
+865,British Columbia,Investments,Text message,Female,30-39,33732.26
+866,Quebec,Investments,Internet-social network,Male,20-29,4712.69
+867,Quebec,Extortion,Direct call,Female,10-19,1160.0
+868,British Columbia,Extortion,Direct call,Female,20-29,3000.0
+869,Quebec,"Emergency (Jail, Accident, Hospital, Help)",Email,Male,60-69,1200.0
+870,Quebec,Merchandise,Internet-social network,Female,20-29,80.0
+871,Ontario,Merchandise,Internet-social network,Male,60-69,140.86
+872,Quebec,Counterfeit Merchandise,Internet-social network,Female,30-39,160.0
+873,British Columbia,False Billing,Internet-social network,Female,30-39,419.88
+874,Ontario,Merchandise,Internet,Female,50-59,1700.0
+875,Ontario,Merchandise,Internet-social network,Male,10-19,663.95
+876,Ontario,Service,Email,Male,30-39,700.0
+877,Ontario,Unauthorized Charge,Other/unknown,Male,60-69,931.18
+878,Ontario,Other,Other/unknown,Female,20-29,2143.92
+879,Ontario,Job,Email,Male,20-29,4000.0
+880,Ontario,Merchandise,Internet-social network,Male,10-19,663.95
+881,Ontario,Merchandise,Internet,Male,70-79,851.15
+882,Quebec,Bank Investigator,Direct call,Female,70-79,2999.0
+883,Ontario,Bank Investigator,Direct call,Female,60-69,4960.0
+884,Quebec,Counterfeit Merchandise,Internet-social network,Female,40-49,26.15
+885,Saskatchewan,Merchandise,Internet,Male,30-39,92.55
+886,Alberta,Job,Internet-social network,Male,20-29,5000.0
+887,Ontario,Other,Other/unknown,Male,20-29,100000.0
+888,Ontario,Job,Internet-social network,Female,20-29,1998.0
+889,Ontario,Romance,Internet-social network,Female,30-39,23830.0
+890,Alberta,Merchandise,Internet-social network,Male,50-59,145.92
+891,British Columbia,Merchandise,Internet-social network,Female,60-69,722.25
+892,Ontario,Merchandise,Internet-social network,Male,20-29,255.0
+893,Quebec,Counterfeit Merchandise,Internet,Female,60-69,374.41
+894,Manitoba,Merchandise,Internet-social network,Male,60-69,35.99
+895,Ontario,Counterfeit Merchandise,Internet-social network,Female,30-39,110.87
+896,Quebec,Extortion,Internet,Female,20-29,92.09
+897,Quebec,Merchandise,Internet-social network,Male,20-29,150.0
+898,British Columbia,Investments,Internet-social network,Female,20-29,2187.0
+899,Alberta,Merchandise,Internet-social network,Male,50-59,138.89
+900,Nevada,Investments,Other/unknown,Female,60-69,55000.0
+901,Quebec,Vendor Fraud,Text message,Male,20-29,791.05
+902,Quebec,Investments,Email,Female,50-59,1082651.1
+903,Ontario,Romance,Internet-social network,Female,60-69,108405.82
+904,British Columbia,Extortion,Direct call,Female,20-29,1495.0
+905,Ontario,Merchandise,Email,Male,20-29,1810.0
+906,Quebec,Counterfeit Merchandise,Internet-social network,Female,30-39,195.37
+907,Ontario,Service,Internet,Female,70-79,1110.0
+908,Quebec,Vendor Fraud,Text message,Male,10-19,350.0
+909,Ontario,Merchandise,Internet,Female,30-39,1350.39
+910,Quebec,Counterfeit Merchandise,Internet,Female,20-29,130.63
+911,Saskatchewan,Prize,Other/unknown,Male,70-79,45000.0
+912,Manitoba,Merchandise,Internet-social network,Female,60-69,36.75
+913,Quebec,Vendor Fraud,Email,Female,40-49,156.84
+914,Quebec,Merchandise,Internet-social network,Female,50-59,4000.0
+915,Quebec,Merchandise,Email,Female,40-49,400.0
+916,Nova Scotia,Merchandise,Internet-social network,Female,30-39,86.19
+917,Ontario,Service,Internet,Female,30-39,150.0
+918,Ontario,Prize,Direct call,Female,80-89,19813.56
+919,Ontario,Investments,Internet,Female,70-79,5572.62
+920,Ontario,Merchandise,Internet-social network,Female,30-39,126.27
+921,Quebec,Vendor Fraud,Direct call,Male,10-19,380.0
+922,Newfoundland And Labrador,False Billing,Email,Male,30-39,806.32
+923,British Columbia,Merchandise,Internet-social network,Female,30-39,487.75
+924,Ontario,Merchandise,Internet-social network,Female,30-39,109.4
+925,Ontario,Extortion,Direct call,Male,20-29,840.0
+926,Alberta,Investments,Internet,Male,40-49,2000.0
+927,Quebec,Counterfeit Merchandise,Internet,Male,60-69,97.32
+928,Alberta,Merchandise,Internet,Male,10-19,170.0
+929,Quebec,Merchandise,Internet-social network,Male,30-39,500.0
+930,Alberta,Vendor Fraud,Email,Female,30-39,750.0
+931,Ontario,Vendor Fraud,Text message,Male,50-59,500.0
+932,Ontario,Merchandise,Internet,Male,20-29,1475.0
+933,Quebec,Merchandise,Internet,Female,40-49,1900.0
+934,Ontario,Investments,Internet,Male,50-59,180000.0
+935,British Columbia,Extortion,Direct call,Female,30-39,12500.0
+936,British Columbia,Merchandise,Internet-social network,Female,40-49,369.9
+937,Quebec,Service,Internet-social network,Male,20-29,500.0
+938,Ontario,Vendor Fraud,Text message,Female,30-39,300.0
+939,Quebec,Investments,Direct call,Male,40-49,318.87
+940,Ontario,Merchandise,Text message,Female,20-29,3500.0
+941,Quebec,Merchandise,Other/unknown,Male,60-69,130.0
+942,Ontario,Merchandise,Text message,Female,50-59,400.0
+943,British Columbia,Merchandise,Internet-social network,Female,20-29,950.0
+944,Quebec,Investments,Internet-social network,Male,50-59,89425.0
+945,Quebec,Merchandise,Internet,Male,50-59,500.0
+946,New Jersey,Counterfeit Merchandise,Internet,Female,40-49,189.98
+947,Alberta,Investments,Internet-social network,Female,20-29,9489.13
+948,Alberta,Merchandise,Internet-social network,Male,50-59,135.96
+949,Alberta,Extortion,Direct call,Female,20-29,11900.0
+950,Ontario,Merchandise,Internet,Male,40-49,750.0
+951,Ontario,Merchandise,Internet,Male,30-39,650.0
+952,Ontario,Vendor Fraud,Internet-social network,Male,20-29,1500.0
+953,Alberta,Service,Text message,Male,30-39,1.93
+954,British Columbia,Counterfeit Merchandise,Internet-social network,Female,60-69,567.01
+955,Ontario,Merchandise,Internet,Male,60-69,100.0
+956,British Columbia,Merchandise,Internet-social network,Male,60-69,50.96
+957,Ontario,Romance,Internet-social network,Female,50-59,12323.7
+958,British Columbia,Merchandise,Internet,Male,20-29,250.0
+959,Nova Scotia,Counterfeit Merchandise,Internet-social network,Female,30-39,180.84
+960,Ontario,Counterfeit Merchandise,Internet,Male,30-39,138.66
+961,Alberta,Counterfeit Merchandise,Internet,Male,50-59,35.68
+962,Ontario,Romance,Internet-social network,Female,20-29,5000.0
+963,Ontario,Service,Internet,Female,40-49,1118.25
+964,Quebec,Counterfeit Merchandise,Internet-social network,Male,60-69,140.86
+965,Quebec,Loan,Print,Male,70-79,140.0
+966,Ontario,Job,Text message,Male,20-29,3400.0
+967,British Columbia,Counterfeit Merchandise,Internet,Male,50-59,85.99
+968,Quebec,Romance,Internet-social network,Female,70-79,1580.0
+969,Quebec,Unauthorized Charge,Other/unknown,Female,20-29,3459.35
+970,Ontario,Merchandise,Email,Male,40-49,3500.0
+971,Ontario,Merchandise,Internet,Male,20-29,1500.0
+972,Quebec,Service,Email,Female,20-29,425.0
+973,Ontario,Vendor Fraud,Text message,Female,10-19,620.0
+974,Alberta,Merchandise,Internet,Male,50-59,971.0
+975,Alberta,Investments,Internet-social network,Female,30-39,120000.0
+976,Ontario,Counterfeit Merchandise,Email,Female,50-59,393.24
+977,Quebec,Investments,Direct call,Male,20-29,30000.0
+978,Quebec,Merchandise,Internet,Male,30-39,15.0
+979,Ontario,Vendor Fraud,Email,Female,20-29,1770.0
+980,British Columbia,Loan,Email,Male,60-69,5000.0
+981,Alberta,Service,Direct call,Female,80-89,7957.0
+982,Alberta,Merchandise,Internet-social network,Male,30-39,450.0
+983,Ontario,Unauthorized Charge,Email,Female,60-69,120.0
+984,Quebec,Counterfeit Merchandise,Internet,Female,10-19,224.0
+985,Ontario,Merchandise,Internet,Male,50-59,48.83
+986,Ontario,Investments,Internet-social network,Female,50-59,57000.0
+987,Ontario,Extortion,Direct call,Female,10-19,9200.0
+988,New Brunswick,Romance,Internet,Female,50-59,51690.0
+989,Quebec,Counterfeit Merchandise,Internet,Female,40-49,76.55
+990,Ontario,Romance,Door to door/in person,Female,70-79,28824.25
+991,Quebec,Bank Investigator,Direct call,Female,40-49,1000.0
+992,Ontario,Spear Phishing,Email,Male,20-29,1200.0
+993,Alberta,Service,Direct call,Female,20-29,310.0
+994,Ontario,Extortion,Direct call,Male,60-69,8375.0
+995,Quebec,Vendor Fraud,Internet,Female,70-79,40.0
+996,Ontario,GRANT,Internet-social network,Male,60-69,6600.0
+997,Alberta,Counterfeit Merchandise,Internet,Female,30-39,72.65
+998,Ontario,Service,Direct call,Male,60-69,230.2
+999,Ontario,Vendor Fraud,Internet,Female,10-19,450.0
+1000,Manitoba,Romance,Internet-social network,Female,40-49,200000.0
