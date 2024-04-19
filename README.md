@@ -25,7 +25,7 @@ Further analysis was performed using Python to calculate percentages and correla
 
 ## Visualization 🚀
 
-An HTML file connected to a Javascript file was created to display five graphs:
+An HTML file connected to a Javascript file was created to display **five graphs:**
 
 1. A bar chart that visualizes the frequency of different categories of fraud and cybercrime.
 2. A pie chart that represents the frequency of different solicitation methods.
