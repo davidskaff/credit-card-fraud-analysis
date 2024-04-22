@@ -37,8 +37,21 @@ An HTML file connected to a Javascript file was created to display five graphs:
 
 A Flask application (`app.py`) was created to connect and host the database. This allows the visualizations to be displayed on a web page, making the analysis results more accessible and understandable.
 
+## Instructions
+
+To interact with this project, you will need to:
+
+1. Clone the repository to your local machine.
+2. Make sure all the necessary Python libraries are installed.
+3. Run the Flask application (app.py) to start the server.
+4. Open the provided URL in your web browser to view the visualizations.
+
 ## Presentation
 
 All the findings and visualizations were compiled into a PowerPoint presentation to effectively communicate the results of the analysis.
+
+## Ethical Considerations
+
+In conducting this analysis, we have taken several steps to ensure ethical considerations. We have used anonymized data to protect the privacy of individuals. Furthermore, we have focused our analysis on patterns and trends, rather than individual cases, to avoid any potential harm or misuse of information.
 
 We hope this project provides valuable insights into credit card fraudulent transactions and helps in the development of effective strategies to combat fraud.
