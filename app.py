@@ -5,8 +5,8 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Define the directories for your static and template files
-static_dir = os.path.join(BASE_DIR, 'HTML & Javascript')
-template_dir = os.path.join(BASE_DIR, 'HTML & Javascript')
+static_dir = os.path.join(BASE_DIR, 'docs')
+template_dir = os.path.join(BASE_DIR, 'docs')
 
 app = Flask(__name__, static_url_path='', static_folder=static_dir, template_folder=template_dir)
 
