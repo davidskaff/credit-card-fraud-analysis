@@ -39,12 +39,16 @@ A Flask application (`app.py`) was created to connect and host the database. Thi
 
 ## Instructions
 
-To interact with this project, you will need to:
+You can interact with this project in one of two ways:
 
+**Option 1: Run the project locally**
 1. Clone the repository to your local machine.
 2. Make sure all the necessary Python libraries are installed.
 3. Run the Flask application (app.py) to start the server.
 4. Open the provided URL in your web browser to view the visualizations.
+
+**Option 2: View the project on GitHub Pages**
+1. Navigate to `https://davidskaff.github.io/credit-card-fraud-analysis/` in your web browser to view the project's website hosted on GitHub Pages.
 
 ## Presentation
 
