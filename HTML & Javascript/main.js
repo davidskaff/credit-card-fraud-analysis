@@ -32,77 +32,83 @@ d3.csv("credit-card-fraud-data.csv").then(function(data) {
     var xScale = d3.scaleBand().domain(dataArray.map(function(d) { return d.category; })).range([0, width]).padding(0.1);
     var yScale = d3.scaleLinear().domain([0, d3.max(dataArray, function(d) { return d.count; })]).range([height, 0]);
 
-    // Create a color scale
-    var colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+  // Determine the number of unique categories in your data
+var numCategories = dataArray.length;
 
-    // Create the bars
-    var bars = svg.selectAll("rect")
-        .data(dataArray)
-        .enter().append("rect")
-        .attr("x", function(d) { return xScale(d.category); })
-        .attr("y", function(d) { return yScale(d.count); })
-        .attr("width", xScale.bandwidth())
-        .attr("height", function(d) { return height - yScale(d.count); })
-        .attr("fill", function(d, i) { return colorScale(i); })  // Use the color scale here
-        .on("mouseover", function() {
-            d3.select(this).attr("opacity", 0.7); // Reduce opacity on mouseover
-        })
-        .on("mouseout", function() {
-            d3.select(this).attr("opacity", 1); // Restore opacity on mouseout
-        });
+// Generate an array of colors using a color interpolation scheme
+var customColors = d3.quantize(d3.interpolateRainbow, numCategories);
 
-    // Add labels
-    svg.selectAll("text")
-        .data(dataArray)
-        .enter()
-        .append("text")
-        .text(function(d) { return d.count; })
-        .attr("x", function(d) { return xScale(d.category) + xScale.bandwidth() / 2; })
-        .attr("y", function(d) { return yScale(d.count) - 10; })
-        .attr("text-anchor", "middle");
+// Create a custom color scale with the generated colors
+var colorScale = d3.scaleOrdinal()
+    .domain(dataArray.map(function(d) { return d.category; }))
+    .range(customColors);
 
-    // Create the legend
-    var legend = svg.append("g")
-        .attr("transform", "translate(" + (width + 20) + ",0)");  // Position the legend
+   // Create the bars
+   var bars = svg.selectAll("rect")
+       .data(dataArray)
+       .enter().append("rect")
+       .attr("x", function(d) { return xScale(d.category); })
+       .attr("y", function(d) { return yScale(d.count); })
+       .attr("width", xScale.bandwidth())
+       .attr("height", function(d) { return height - yScale(d.count); })
+       .attr("fill", function(d, i) { return colorScale(i); })  // Use the color scale here
+       .on("mouseover", function() {
+           d3.select(this).attr("opacity", 0.7); // Reduce opacity on mouseover
+       })
+       .on("mouseout", function() {
+           d3.select(this).attr("opacity", 1); // Restore opacity on mouseout
+       });
 
-    var legendItems = legend.selectAll("g")
-        .data(dataArray)
-        .enter().append("g")
-        .attr("transform", function(d, i) { return "translate(0," + (i * 20) + ")"; });  // Position each legend item
+   // Add labels
+   svg.selectAll("text")
+       .data(dataArray)
+       .enter()
+       .append("text")
+       .text(function(d) { return d.count; })
+       .attr("x", function(d) { return xScale(d.category) + xScale.bandwidth() / 2; })
+       .attr("y", function(d) { return yScale(d.count) - 10; })
+       .attr("text-anchor", "middle");
 
-    // Add the color squares to the legend
-    legendItems.append("rect")
-        .attr("width", 18)
-        .attr("height", 18)
-        .attr("fill", function(d, i) { return colorScale(i); });
+   // Create the legend
+   var legend = svg.append("g")
+       .attr("transform", "translate(" + (width + 20) + ",0)");  // Position the legend
 
-    // Add the labels to the legend
-    legendItems.append("text")
-        .attr("x", 24)
-        .attr("y", 9)
-        .attr("dy", ".35em")
-        .text(function(d) { return d.category; });
+   var legendItems = legend.selectAll("g")
+       .data(dataArray)
+       .enter().append("g")
+       .attr("transform", function(d, i) { return "translate(0," + (i * 20) + ")"; });  // Position each legend item
 
-    // Add the title at the middle top
-    svg.append("text")
-        .attr("x", width / 2)
-        .attr("y", 30) // Adjust this value as needed
-        .attr("text-anchor", "middle")
-        .attr("font-size", "15px") // Reduce the font size by 25%
-        .attr("font-weight", "bold") // Make it bold
-        .text("Fraud and Cybercrime Thematic Categories");
+   // Add the color squares to the legend
+   legendItems.append("rect")
+       .attr("width", 18)
+       .attr("height", 18)
+       .attr("fill", function(d, i) { return colorScale(i); });
+
+   // Add the labels to the legend
+   legendItems.append("text")
+       .attr("x", 24)
+       .attr("y", 9)
+       .attr("dy", ".35em")
+       .text(function(d) { return d.category; });
+
+   // Add the title at the middle top
+   svg.append("text")
+       .attr("x", width / 2)
+       .attr("y", 30) 
+       .attr("text-anchor", "middle")
+       .attr("font-size", "15px") 
+       .attr("font-weight", "bold") 
+       .text("Fraud and Cybercrime Thematic Categories");
 });
-
-
-
 
 d3.csv("credit-card-fraud-data.csv").then(function(data) {
     var svg = d3.select("#chart2").append("svg")
-        .attr("width", 800)
-        .attr("height", 500);
+        .attr("width", 500)
+        .attr("height", 400);
 
     var width = +svg.attr("width");
     var height = +svg.attr("height");
+    var radius = Math.min(width, height) / 3;
 
     // Count the frequency of each solicitation method
     var counts = {};
@@ -129,90 +135,62 @@ d3.csv("credit-card-fraud-data.csv").then(function(data) {
     // Create a pie generator
     var pie = d3.pie().value(function(d) { return d.count; });
 
-    // Create an arc generator
-    var arc = d3.arc().innerRadius(0).outerRadius(Math.min(width, height) / 2);
+    // Define the rainbow color scale
+    var colorScale = d3.scaleSequential(d3.interpolateRainbow)
+        .domain([0, dataArray.length]);
 
-    // Create a group element and translate it to the center
-    var g = svg.append("g")
-        .attr("transform", "translate(" + width / 3 + "," + height / 2 + ")");
+    // Create a group element for the legend
+    var legendGroup = svg.append("g")
+        .attr("transform", "translate(" + (width - 200) + ",20)");
 
-    // Create the pie chart
-    var path = g.selectAll("path")
-        .data(pie(dataArray))
-        .enter().append("path")
-        .attr("d", arc)
-        .attr("fill", function(d, i) { return d3.schemeCategory10[i % 10]; })
-        .on("mouseover", function(d) {
-            var percentage = (d.data.count / d3.sum(dataArray, function(d) { return d.count; }) * 100).toFixed(2);
-            tooltip.html(percentage + "%");
-            tooltip.style("visibility", "visible");
-        })
-        .on("mousemove", function() {
-            tooltip.style("top", (d3.event.pageY - 10) + "px")
-                .style("left", (d3.event.pageX + 10) + "px");
-        })
-        .on("mouseout", function() {
-            tooltip.style("visibility", "hidden");
-        });
-
-    // Add interactivity
-    path.on("mouseover", function(d) {
-            d3.select(this)
-                .attr("stroke", "white")
-                .transition()
-                .duration(200)
-                .attr("d", d3.arc().innerRadius(0).outerRadius(Math.min(width, height) / 2 + 10));
-        })
-        .on("mouseout", function(d) {
-            d3.select(this)
-                .attr("stroke", "none")
-                .transition()
-                .duration(200)
-                .attr("d", arc);
-        });
-
-    // Add a legend
-    var legend = svg.selectAll(".legend")
-        .data(pie(dataArray))
+    // Add legend
+    var legend = legendGroup.selectAll(".legend")
+        .data(dataArray)
         .enter().append("g")
         .attr("class", "legend")
-        .attr("transform", function(d, i) { return "translate(" + (2 * width / 3 + 10) + "," + (i * 20 + 20) + ")"; });
+        .attr("transform", function(d, i) { return "translate(0," + (i * 20) + ")"; });
 
     legend.append("rect")
         .attr("width", 18)
         .attr("height", 18)
-        .style("fill", function(d, i) { return d3.schemeCategory10[i % 10]; });
+        .style("fill", function(d, i) { return colorScale(i); });
 
     legend.append("text")
         .attr("x", 24)
         .attr("y", 9)
         .attr("dy", ".35em")
-        .text(function(d) { return d.data.method; });
+        .text(function(d) { return d.method; });
 
-    // Add title
-    svg.append("text")
-        .attr("x", width - 200) // Positioning from right edge with slight adjustment
-        .attr("y", height - 10) // Positioning from bottom edge
-        .attr("text-anchor", "end") // Align to the end (right)
-        .style("font-size", "18px") // Set font size to 18px
-        .style("font-weight", "bold") // Making the font bold
-        .text("Solicitation Method");
+    // Create a group element for the donut chart
+    var g = svg.append("g")
+        .attr("transform", "translate(" + (width / 3) + "," + (height / 3) + ")");
 
-    // Add tooltip
-    var tooltip = d3.select("body").append("div")
-        .attr("class", "tooltip")
-        .style("position", "absolute")
-        .style("z-index", "10")
-        .style("visibility", "hidden")
-        .style("background-color", "rgba(0, 0, 0, 0.7)")
-        .style("color", "white")
-        .style("padding", "5px")
-        .style("border-radius", "5px");
+    // Create the pie chart
+    var path = g.selectAll("path")
+        .data(pie(dataArray))
+        .enter().append("path")
+        .attr("d", d3.arc().innerRadius(radius * 0.5).outerRadius(radius * 0.8))
+        .attr("fill", function(d, i) { return colorScale(i); }) // Use rainbow color scale
+        .attr("stroke", "white")
+        .style("stroke-width", "2px")
+        .each(function(d) { this._current = d; }); // Store the initial angles
+
+    // Add percentage labels
+    var labelArc = d3.arc().innerRadius(radius * 0.5).outerRadius(radius * 0.8);
+    g.selectAll("text")
+        .data(pie(dataArray))
+        .enter().append("text")
+        .attr("transform", function(d) { 
+            var pos = labelArc.centroid(d);
+            return "translate(" + pos + ")"; 
+        })
+        .attr("dy", ".35em")
+        .attr("text-anchor", "middle")
+        .style("fill", "white")
+        .text(function(d) { 
+            return (d.data.count / d3.sum(dataArray, function(d) { return d.count; }) * 100).toFixed(2) + "%"; 
+        });
 });
-
-
-
-
 
 function createHistogram(data) {
     const categories = [
@@ -239,13 +217,13 @@ function createHistogram(data) {
         }
     });
 
-    const sortedIndices = counts.map((_, i) => i).sort((a, b) => counts[b] - counts[a]);
-    categories.sort((a, b) => sortedIndices.indexOf(categories.indexOf(a)) - sortedIndices.indexOf(categories.indexOf(b)));
-    counts.sort((a, b) => b - a);
+    const rainbowColors = d3.quantize(d3.interpolateRainbow, categories.length);
 
     const colorScale = d3.scaleOrdinal()
-        .domain(sortedIndices)
-        .range(d3.schemeCategory10);
+        .domain(categories.map((_, index) => index))
+        .range(rainbowColors);
+
+    const sortedCategories = categories.slice().sort((a, b) => a.range[0] - b.range[0]);
 
     const margin = { top: 20, right: 20, bottom: 50, left: 40 };
     const width = 600 - margin.left - margin.right;
@@ -261,7 +239,7 @@ function createHistogram(data) {
         .attr("transform", `translate(${margin.left},${margin.top})`);
 
     const x = d3.scaleBand()
-        .domain(categories.map((_, index) => index))
+        .domain(sortedCategories.map((_, index) => index))
         .range([0, width])
         .padding(0.1);
 
@@ -278,7 +256,7 @@ function createHistogram(data) {
         .call(d3.axisLeft(y));
 
     const bars = svg.selectAll("rect")
-        .data(categories)
+        .data(sortedCategories)
         .enter()
         .append("rect")
         .attr("x", (_, i) => x(i))
@@ -288,7 +266,7 @@ function createHistogram(data) {
         .attr("fill", (_, i) => colorScale(i))
         .on("mouseover", function(_, i) {
             const tooltip = d3.select("#tooltip");
-            tooltip.style("opacity", 1).html(`Category: ${categories[i].label}<br>Count: ${counts[i]}`);
+            tooltip.style("opacity", 1).html(`Category: ${sortedCategories[i].label}<br>Count: ${counts[categories.indexOf(sortedCategories[i])]}`);
         })
         .on("mouseout", function() {
             const tooltip = d3.select("#tooltip");
@@ -296,7 +274,7 @@ function createHistogram(data) {
         });
 
     svg.selectAll("text.label")
-        .data(categories)
+        .data(sortedCategories)
         .enter()
         .append("text")
         .attr("class", "label")
@@ -322,7 +300,7 @@ function createHistogram(data) {
         .attr("transform", `translate(${width + 20}, 0)`);
 
     legend.selectAll("rect")
-        .data(categories)
+        .data(sortedCategories)
         .enter()
         .append("rect")
         .attr("x", 0)
@@ -332,7 +310,7 @@ function createHistogram(data) {
         .attr("fill", (_, i) => colorScale(i));
 
     legend.selectAll("text")
-        .data(categories)
+        .data(sortedCategories)
         .enter()
         .append("text")
         .attr("x", legendHeight + 5)
@@ -348,8 +326,8 @@ d3.csv("credit-card-fraud-data.csv").then(function(data) {
 });
 
 
-
-
+// Call the function to create the stacked bar chart
+createStackedBarChart();
 
 function createStackedBarChart() {
     // Define the dimensions and margins for the chart
@@ -377,10 +355,13 @@ function createStackedBarChart() {
         // Extract unique age ranges
         var ageRanges = [...new Set(data.map(function (d) { return d["Victim Age Range"]; }))];
 
-        // Create color scale for different age ranges
+        // Sort ageRanges in ascending order
+        ageRanges.sort((a, b) => parseInt(a.split(' ')[0]) - parseInt(b.split(' ')[0]));
+
+        // Create color scale for different age ranges using rainbow interpolation
         var color = d3.scaleOrdinal()
             .domain(ageRanges)
-            .range(d3.schemeCategory10);
+            .range(d3.quantize(d3.interpolateRainbow, ageRanges.length));
 
         // Stack the data
         var stackedData = d3.stack()
@@ -400,7 +381,7 @@ function createStackedBarChart() {
             .domain([0, d3.max(stackedData, function (d) { return d3.max(d, function (d) { return d[1]; }); })])
             .range([height, 0]);
 
-        // Draw bars with tooltips
+        // Draw bars with tooltips and percentages
         svg.selectAll("g")
             .data(stackedData)
             .enter().append("g")
@@ -455,7 +436,7 @@ function createStackedBarChart() {
             .attr("x", width + 10)
             .attr("width", 18)
             .attr("height", 18)
-            .style("fill", color);
+            .style("fill", function (d) { return color(d); });
 
         legend.append("text")
             .attr("x", width + 35)
@@ -476,13 +457,6 @@ function createStackedBarChart() {
             .text("");
     });
 }
-
-// Call the function to create the stacked bar chart
-createStackedBarChart();
-
-
-
-
 
 d3.csv("credit-card-fraud-data.csv").then(function(data) {
     var svg = d3.select("#chart5").append("svg")
@@ -509,7 +483,7 @@ d3.csv("credit-card-fraud-data.csv").then(function(data) {
         var path = d3.geoPath().projection(d3.geoMercator().fitSize([width, height], canada));
 
         // Create a color scale
-        var color = d3.scaleSequential(d3.interpolateReds).domain([0, d3.max(Object.values(counts))]);
+        var color = d3.scaleSequential(d3.interpolateRainbow).domain([0, d3.max(Object.values(counts))]);
 
         // Draw the map
         svg.selectAll("path")
@@ -527,7 +501,8 @@ d3.csv("credit-card-fraud-data.csv").then(function(data) {
             .on("mouseover", function(d) {
                 // Display tooltip on mouseover
                 var provinceName = d.properties.name;
-                tooltip.text(provinceName)
+                var percent = ((counts[provinceName] || 0) / data.length * 100).toFixed(2);
+                tooltip.text(provinceName + " - " + percent + "%")
                     .style("visibility", "visible");
             })
             .on("mousemove", function() {
